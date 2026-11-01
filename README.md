@@ -10,3 +10,5 @@
 参见 [元数据](docs/metadata.md)、[仓库边界](docs/repositories.md)、[技能索引](.agents/skills/README.md)、[设计来源](ORIGIN.md)。项目级 project.json 是模板配置，不替代角色仓库 projects.json，不是 agent-repo 新增 API。
 
 配套：https://github.com/Lydanne/agent-wiki-temple ，https://github.com/Lydanne/agent-plugins 。仓库名 temple 按项目约定保留。
+
+Git 工作模式在 project.json.git 配置，支持 read-only/local/direct/review；默认 review。完整步骤见 [Git 工作流](.agents/skills/git-workflow/references/workflow.md)，现场只读检查使用 `python3 scripts/git-check.py`。
