@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "example-project",
+  "name": "示例项目",
+  "knowledge": {
+    "path": "wiki",
+    "mode": "directory"
+  },
+  "repositories": [],
+  "tools": {},
+  "git": {
+    "delivery": "review",
+    "auto_merge": false
+  },
+  "verification": {
+    "commands": [
+      "python3 scripts/check.py",
+      "python3 -m unittest discover -s tests"
+    ]
+  }
+}
