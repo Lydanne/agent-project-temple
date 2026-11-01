@@ -22,8 +22,8 @@
   },
   "verification": {
     "commands": [
-      "python3 scripts/check.py",
-      "python3 -m unittest discover -s tests"
+      "npm run check",
+      "npm test"
     ]
   }
 }
